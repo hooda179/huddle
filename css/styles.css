@@ -1,0 +1,253 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  font-size: 18px;
+  color: #000;
+}
+p {
+  font-weight: 500;
+}
+.headings {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  line-height: 1.5;
+  font-size: 1.375rem;
+}
+.small-fonts {
+  font-size: 0.875rem;
+}
+/* title section */
+.title {
+  background-image: url("../images/bg-hero-desktop.svg");
+  background-color: #ebfbff;
+  padding: 3% 7%;
+  margin-bottom: 10%;
+}
+.title .headings {
+  font-size: 2.375rem;
+}
+.logo {
+  width: 15%;
+}
+.try-it-free { /*button*/
+  font-weight: bold;
+  position: absolute;
+  right: 7%;
+  background-color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 7px 50px;
+  box-shadow: 1px 1px 3px #ddd,
+              -1px -1px 3px #ddd;
+}
+.try-it-free:hover {
+  color: grey;
+  cursor: pointer;
+}
+.title .row {
+  margin-top: 5%;
+  padding: 0;
+}
+.title-description {
+  padding-top: 7%;
+}
+.title-description .headings {
+  margin-bottom: 5%;
+}
+.right {
+  width: 90%;
+  float: right;
+}
+.start-btn {
+  background-color: #ff52bf;
+  color: #fff;
+  padding: 15px 14%;
+  border-radius: 20px;
+  border: none;
+  font-weight: 600;
+  margin-top: 20px;
+}
+.start-btn:hover {
+  color: #ddd;
+  cursor: pointer;
+}
+/* sections */
+section {
+  width: 75%;
+  margin: 3% auto;
+  border: none;
+  box-shadow: 1px 1px 3px #ddd,
+              -1px -1px 3px #ddd;
+  border-radius: 5px;
+  padding-top: 2%;
+}
+section img {
+  width: 90%;
+}
+.features {
+  padding: 0 10%;
+}
+section .headings {
+  margin-top: 10%;
+}
+section p {
+  color: grey;
+}
+/* cta section */
+.cta {
+  width: 50%;
+  margin: 0 auto;
+  border: none;
+  box-shadow: 1px 1px 3px #ddd, -1px -1px 3px #ddd;
+  border-radius: 5px;
+  text-align: center;
+  padding: 3% 0;
+  position: relative;
+  top: 5rem;
+  z-index: 1;
+  background: #fff;
+}
+.cta .start-btn {
+  padding: 20px 80px;
+  margin-bottom: 3%;
+}
+/* footer section */
+footer {
+  position: relative;
+  background-color: #00252e;
+  padding: 7%;
+  color: #fff;
+}
+.white-logo {
+  margin-bottom: 2%;
+}
+footer .details {
+  display: flex;
+  align-items: center;
+  margin: 5% 0;
+}
+.location {
+  display: flex;
+  align-items: flex-start;
+}
+footer .location p {
+  padding-left: 5%;
+}
+footer .location img {
+  margin-top: 1%;
+}
+footer .footer-content a {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  padding-left: 16px;
+  margin: 0 auto 25px;
+  font-weight: 100;
+}
+footer .footer-content a:hover {
+  text-decoration: underline;
+}
+footer .details a {
+  margin: 0;
+}
+.footer-section {
+  padding: 0 2%;
+}
+.footer-section .social {
+font-size: 40px;
+text-decoration: none;
+padding: 9px;
+border: 1px solid #fff;
+border-radius: 50%;
+margin: 0 8px;
+}
+.footer-section .social:hover {
+  border-color: #ff99da;
+  color: #ff99da;
+  cursor: pointer;
+}
+.Copyright {
+  float: right;
+  font-size: 0.6875rem;
+}
+.attribution {
+  position: absolute;
+  bottom: 10px;
+  font-size: 0.6875rem;
+  text-align: center;
+  margin: auto;
+  left: 40%;
+ }
+.attribution a {
+  color: #3e52a3;
+ }
+/* tablet screen */
+@media screen and (max-width: 986px) {
+  .title .headings {
+    font-size: 1.875rem;
+  }
+}
+@media screen and (max-width: 905px) {
+  .start-btn {
+    font-size: 0.8125rem;
+  }
+  .footer-section .social {
+    margin: 0 4px;
+  }
+}
+/* mobile screen*/
+@media screen and (max-width: 768px) {
+  .logo {
+    width: 20%;
+  }
+  .title-description {
+    text-align: center;
+    padding-bottom: 16%;
+  }
+  .try-it-free {
+    padding: 7px 30px;
+    font-size: 11px;
+  }
+  section, .cta {
+    width: 90%;
+  }
+  .cta {
+    border-radius: 20px;
+    padding: 8% 0;
+    margin-top: 25%
+  }
+  .cta .start-btn {
+    padding: 13px 65px;
+  }
+  section .row {
+    display: flex;
+  }
+  .img-div {
+    order: 1;
+  }
+  .features {
+    order: 2;
+    text-align: center;
+  }
+  footer {
+    padding: 25% 7% 10%;
+  }
+  footer .logo {
+    width: 45%;
+    margin-bottom: 6%;
+  }
+  footer .margin-bottom {
+    margin-bottom: 10%;
+  }
+  .social-section {
+    text-align: center;
+  }
+  .Copyright {
+    text-align: center;
+    float: none;
+  }
+  .attribution {
+    position: static;
+    text-align: center;
+  }
+}
